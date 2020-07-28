@@ -10,9 +10,6 @@ function Footer() {
       <p>
         Sua central de streaming sobre jogos
         {' '}
-        <a href="https://gambling.vercel.app/">
-          gambling
-        </a>
       </p>
     </FooterBase>
   );
