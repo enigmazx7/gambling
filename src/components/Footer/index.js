@@ -5,7 +5,7 @@ function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-        <img src="https://gambling.vercel.app/static/media/Logo.4e8ce659.png" width="10%" alt="Logo Alura" />
+        <img src="https://gambling.vercel.app/static/media/Logo.4e8ce659.png" width="200px" alt="Logo Alura" />
       </a>
       <p>
         Sua central de streaming sobre jogos
