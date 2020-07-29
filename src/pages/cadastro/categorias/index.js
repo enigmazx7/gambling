@@ -1,17 +1,32 @@
 import React from 'react';
-import PageDefault from '../../../components/pageDefault';
 import { Link } from 'react-router-dom';
+import PageDefault from '../../../components/PageDefault';
 
-function CadastroCategorias() {
-    return (
-      <PageDefault>
-       <h1> cadastro de Categorias </h1> 
+function CadastroCategoria() {
+  return (
+    <PageDefault>
+      <h1>Cadastro de Categoria</h1>
+
+      <form>
+
+        <label>
+          Nome da Categoria:
+          <input
+            type="text"
+          />
+        </label>
+
+        <button>
+          Cadastrar
+        </button>
+      </form>
+
 
       <Link to="/">
-        Voltar para Home
+        Ir para home
       </Link>
-      </PageDefault>
-    )
-  }
+    </PageDefault>
+  )
+}
 
-  export default CadastroCategorias;
+export default CadastroCategoria;

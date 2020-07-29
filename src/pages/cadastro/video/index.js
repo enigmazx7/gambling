@@ -1,5 +1,5 @@
 import React from 'react';
-import PageDefault from '../../../components/pageDefault';
+import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 
 function CadastroVideo() {
@@ -7,7 +7,7 @@ function CadastroVideo() {
       <PageDefault>
        <h1> cadastro de video </h1> 
 
-      <Link to="./categorias">
+      <Link to="/cadastro/categorias">
         Cadastro de Categorias
       </Link>
       </PageDefault>
