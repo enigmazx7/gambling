@@ -1,101 +1,97 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Beat em Up",
+      "link": "/",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Ver mais",
+        "url": "https://www.youtube.com/results?search_query=melhores+jogos+beat+em+up"
       },
       "videos": [
         {
-          "titulo": "Streets of Rage 4 Co-opn",
+          "titulo": "Streets of Rage 4",
           "url": "https://www.youtube.com/watch?v=yNFGev1G6wo&t=3s"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Captain Commando",
+          "url": "https://www.youtube.com/watch?v=UL56e0Jult4"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Cadillacs And Dinosaurs",
+          "url": "https://www.youtube.com/watch?v=Qle0AIaxJr0"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Alien Vs Predator",
+          "url": "https://www.youtube.com/watch?v=4P5jo5ijhTM"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Double Dragon",
+          "url": "https://www.youtube.com/watch?v=dCXuzqlCyCQ"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-        },
-        {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-        },
-        {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-        },
-        {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
-        {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Teanage Mutant Ninja Turtles",
+          "url": "https://www.youtube.com/watch?v=Bv1M5SSk7f8"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "FPS",
+      "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Ver mais",
+        "url": "https://www.youtube.com/results?search_query=melhores+jogos+fps"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Overwatch",
+          "url": "https://www.youtube.com/watch?v=iiMpPUDixUE"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Half-Life",
+          "url": "https://www.youtube.com/watch?v=JMhRGVybDmc"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Destiny",
+          "url": "https://www.youtube.com/watch?v=OOb442Lc7eg"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Apex Legends",
+          "url": "https://www.youtube.com/watch?v=NNp8hA4QpRU"
+        }, 
+        {
+          "titulo": "Titanfall 2",
+          "url": "https://www.youtube.com/watch?v=othE1Nwrr-0"
+        }
+      ]
+    },
+    {
+      "titulo": "RPG",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Ver mais",
+        "url": "https://www.youtube.com/results?search_query=melhores+jogos+rpg"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy VII Remake",
+          "url": "https://www.youtube.com/watch?v=M9VJ7fvbWoQ"
+        },
+        {
+          "titulo": "Chrono Trigger",
+          "url": "https://www.youtube.com/watch?v=fEcwtSkRz2Q"
+        },
+        {
+          "titulo": "Final Fantasy VIII",
+          "url": "https://www.youtube.com/watch?v=1X3FUgpLYTI"
+        },
+        {
+          "titulo": "Illusion of Gaia",
+          "url": "https://www.youtube.com/watch?v=3G78rLtHK9I"
+        },
+        {
+          "titulo": "The Legend of Dragoon",
+          "url": "https://www.youtube.com/watch?v=ypOt6xVv3Y8"
         }
       ]
     },
