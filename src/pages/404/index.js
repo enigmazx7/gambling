@@ -5,7 +5,7 @@ import Iframe from 'react-iframe';
 function JOgoStart() {
   return (
     <PageDefault>
-        <h1 style={{textAlign: "center"}}>Página não encontrada</h1>
+        <h1 style={{textAlign: "center"}}>ERRO 404: Página não encontrada</h1>
           <div style={{textAlign: "center"}}>
             <Iframe url="https://oneclickdigital.com.br/flappy-bird"
               width="350px"
