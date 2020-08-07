@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/pageDefault';
 import FormField from '../../../components/FormField';
@@ -11,7 +11,7 @@ function CadastroCategoria() {
     cor: '',
   };
 
-  const [categorais, setCategorias] = useState([]);
+  const [categorias, setCategorias] = useState([]);
   const [values, setValues] = useState(valoresInicias);
 
   function setValue(chave, valor) {
@@ -28,6 +28,18 @@ function CadastroCategoria() {
     );
   }
 
+  useEffect(() => {
+    const URL_TOP = 'http://localhost:8000/categorias';
+
+    fetch(URL_TOP)
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
+        setCategorias([
+          ...resposta,
+        ]);
+      });
+  }, []);
+
   return (
     <PageDefault>
       <h1>
@@ -39,7 +51,7 @@ function CadastroCategoria() {
       <form onSubmit={function handleSubmit(infoEvento) {
         infoEvento.preventDefault();
         setCategorias([
-          ...categorais,
+          ...categorias,
           values,
         ]);
         setValues(valoresInicias);
@@ -75,8 +87,14 @@ function CadastroCategoria() {
         </Button>
       </form>
 
+      {categorias.length === 0 && (
+        <div>
+          Carregando...
+        </div>
+      )}
+
       <ul>
-        {categorais.map((categoria, indice) => (
+        {categorias.map((categoria, indice) => (
           // eslint-disable-next-line react/no-array-index-key
           <li key={`${categoria}${indice}`}>
             {categoria.nome}

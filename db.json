@@ -1,0 +1,10 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Beat em Up",
+            "descricao": "Categoria Beat em Up",
+            "cor": "#cbd1ff"
+        }
+    ]
+}
